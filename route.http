@@ -1,0 +1,23 @@
+POST HTTP://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "video 01",
+    "descripition": "Esse é o prmeiro video",
+    "duration": 180
+    }
+
+###    
+
+GET HTTP://localhost:3333/videos?search=node
+
+###
+
+PUT  HTTP://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "video 01",
+    "descripition": "Esse é o prmeiro video",
+    "duration": 180
+    }
